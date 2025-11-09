@@ -1,0 +1,35 @@
+.item {
+  list-style: none;
+}
+
+.item h3 {
+  margin: 0.25rem 0 0.4rem 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.price {
+  border-radius: 999px;
+  padding: 0.25rem 0.9rem;
+  background-color: rgba(11,26,43,0.04);
+  color: var(--accent, #10B981);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.item p {
+  color: var(--muted, #9aa0a6);
+  margin: 0.4rem 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}

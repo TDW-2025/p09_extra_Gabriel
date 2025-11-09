@@ -1,0 +1,29 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  border: 1px solid var(--accent, #10B981);
+  color: var(--accent, #10B981);
+  padding: 0.5rem 0.75rem;
+  border-radius: 999px;
+}
+
+.button:hover,
+.button:active {
+  background-color: var(--accent, #10B981);
+  color: white;
+}
+
+.button span {
+  margin: 0;
+}
+
+.badge {
+  background-color: var(--accent, #10B981);
+  border-radius: 999px;
+  padding: 0.2rem 0.9rem;
+  color: #09121a;
+  font-weight: 700;
+  font-size: 0.95rem;
+}

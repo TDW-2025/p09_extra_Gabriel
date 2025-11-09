@@ -1,0 +1,16 @@
+.products h2 {
+  color: var(--on-surface, #ffffff);
+  margin: 1.5rem 0;
+  text-align: center;
+  text-transform: none;
+  font-size: 1.5rem;
+}
+
+.products ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}

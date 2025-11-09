@@ -1,0 +1,62 @@
+.item {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.item h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quantity span {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.itemprice {
+  font-weight: 500;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.actions button {
+  background-color: transparent;
+  border: 1px solid rgba(16,24,40,0.08);
+  padding: 0.35rem 0.9rem;
+  color: inherit;
+  border-radius: 8px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: rgba(16,24,40,0.04);
+}
